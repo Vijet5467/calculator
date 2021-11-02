@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>  
+    <script src="p50.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+<body>
+    <h1 style="color:blueviolet;text-align: center;" >Enter the 1st number:<input type="number" id="num1" style="color: red;padding: 6px; background-color: #FCF5D8; border:solid 3px;width: 200px;"" placeholder="first number goes here"></h1>
+    <br>
+      
+
+    <h1 style="color: blue;text-align: center;">Enter the 2nd number:<input type="number" id="num2" style="color: red;padding: 6px; background-color: #FCF5D8;border:solid 3px;width: 200px;" placeholder="second number goes here"></h1>
+    <br>
+    <h1 style="color:darkblue;text-align: center;">Select the arithmetic operation to continue:</h1>
+
+    <select id="sel" onclick="calculate()" style="background-color:#FCF5D8;padding: 5px;padding: 5px;color: green; border: solid 3px;margin-left:auto;margin-right:auto;display:block;">
+        
+        <option value="+">+ (Addition)</option>
+        <option value="-">- (Substraction)</option>
+        <option value="*">* (Multiplication)</option>
+        <option value="/">/ (Devision)</option>
+      </select>
+
+
+     
+    <button id="bb" onclick="cal()"  style="font-size: 25px; color:midnightblue;border:solid 3px; margin-left:auto;margin-right:auto;display:block;margin-top: 5px;">calculate</button><br>
+    <br>
+    <h1 id="res" style="color: indianred;text-align: center;">Result will be displayed here:</h1><br>
+    <h1 id="res2" style="visibility: hidden;text-align: center;">Result is displayed above.Thank you.</h1>
+    
+</body>
+</head>
+</html>
